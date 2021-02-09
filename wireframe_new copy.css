@@ -1,0 +1,190 @@
+html{
+	font-family: 'Inter', sans-serif;
+}
+body{
+  margin: 0px;
+}
+
+/* MENU BAR */
+.menu{
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  margin-top: 14px;
+}
+.menu_item{
+  margin: 0;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+}
+/* PAGE 1 */
+.page1{
+  background-image: url('graphics/mainpagebg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.captionp1{
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+.cutai{
+  font-size: 150px;
+}
+
+/* PAGE 2 */
+.page2{
+  background-image: url('graphics/p2bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.captionp2{
+  color:#F0F0F0;
+  margin: 0;
+  display: inline-block;
+  margin-left: 225px;
+  width: 30%;
+  text-align: left;
+}
+.p2title{
+  margin-top: 400px;
+  font-size: 100px;
+}
+.p2description{
+  margin-top: -50px;
+}
+
+ /*PAGE 3 */
+.page3{
+  background-image: url('graphics/p3bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.captionp3{
+  color:#F0F0F0;
+  margin: 0;
+  display: inline-block;
+  margin-left: 200px;
+  width: 35%;
+  text-align: left;
+}
+.expl_video{
+  margin: 0;
+  display: inline-block;
+  height: 100vh;
+  margin-top: -625px;
+  margin-left: 700px;
+}
+.process{
+  margin-top: 400px;
+  font-size: 100px;
+}
+.p3description{
+  margin-top: -50px;
+}
+
+/* PAGE 4 */
+.page4{
+  background-image: url('graphics/darkbg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  color:#F0F0F0;
+  text-align: center;
+}
+.tryButton{
+  top: 50%;
+  text-decoration: underline;
+}
+#importFile{
+  top: 40%;
+  text-decoration: underline;
+
+  /*padding: 10px;
+  width: 25%;
+  border: 1px;
+  background-color: #636363*/
+}
+
+/*.captionp4{
+  color:#F0F0F0;
+  display: inline-block;
+  top: 39%;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}*/
+.button{
+  color:#F0F0F0;
+  display: inline-block;
+  margin-left: 750px;
+  margin-top: 50px;
+  width: 10%;
+  padding: 10px;
+  border: 1px white;
+  text-align: center;
+  background-color: #636363
+}
+.video{
+  margin-left: 500px;
+}
+
+
+
+/*PAGE 5 */
+.page5{
+  background-image: url('graphics/p5bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.captionp5{
+  color:#F0F0F0;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 80px;
+  width: 35%;
+  text-align: left;
+}
+.pricing{
+  font-size: 100px;
+  margin-top: ;
+}
+.charges{
+  margin-top: -50px;
+}
+
+.price_item{
+  color:#1B1C1E;
+  margin: 0;
+  display: inline-block;
+  top: 0px;
+  margin-top: 70px;
+  margin-left: 15px;
+  width: 25%;
+  text-align: left;
+}
+.zero{
+  font-size: 150px;
+  margin-left: 240px;
+}
+.ten{
+  font-size: 150px;
+  margin-left: 160px;
+}
+.plan{
+  margin-left: 220px;
+}
