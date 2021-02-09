@@ -104,44 +104,25 @@ body{
   color:#F0F0F0;
   text-align: center;
 }
-.tryButton{
-  top: 50%;
-  text-decoration: underline;
+.try{
+  font-size: 100px;
+  /*padding: 30px;*/
 }
-#importFile{
-  top: 40%;
-  text-decoration: underline;
-
-  /*padding: 10px;
-  width: 25%;
-  border: 1px;
-  background-color: #636363*/
-}
-
-/*.captionp4{
+.buttons{
   color:#F0F0F0;
-  display: inline-block;
-  top: 39%;
-  margin-top: 100px;
+  display: inline-grid;
+  grid-template-columns: 30% 30% 30%;
   width: 100%;
-  text-align: center;
-}*/
+  margin-left: 5%;
+}
 .button{
-  color:#F0F0F0;
   display: inline-block;
-  margin-left: 750px;
-  margin-top: 50px;
-  width: 10%;
-  padding: 10px;
-  border: 1px white;
-  text-align: center;
-  background-color: #636363
+  padding: 10px 150px;
+
 }
 .video{
-  margin-left: 500px;
+  display: inline-block;
 }
-
-
 
 /*PAGE 5 */
 .page5{
