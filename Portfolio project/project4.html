@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ilya's Teahouse</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <link href='styles.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/teaicon.png" alt="" height="30" class="teaicon">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="teacollection.html">Tea collection</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="knowhow.html">Know-how</a>
+              </li>
+           </ul>
+        </div>
+      </div>
+  </nav>
+
+  <div class="container">
+    <!-- Horizontal card component from https://getbootstrap.com/docs/5.0/components/card/#horizontal -->
+    <div class="card-h mb-3" style="max-width: auto;">
+      <div class="shadow p-1 mb-5 bg-body rounded">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/kovid.png" class="card-img-top" style="max-height: auto;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h1 class="card-title-h">Energetic Matcha for #insta</h1>
+              <!-- Text alignement from https://www.tutorialspoint.com/How-to-set-Text-alignment-in-HTML#:~:text=To%20set%20text%20alignment%20in%20HTML%2C%20use%20the%20style%20attribute,center%2C%20left%20and%20right%20alignment. -->
+              <p style="text-align:left;" class="card-text">Exciting and memorable, this matcha latte is nothing like you've tasted before. By using ceremonial grade matcha powder, our chef has refined a unique morning essential, that will wake you up, without needing coffee.<br>It is even better when shared with others #crowded-places.</p>
+              <a href="https://sarahalyahya.github.io/Assignment%204%20-%20Kovid/">
+                <button type="button" class="hortizonalbtn btn btn-primary">Experience this blend</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Grid layout from https://getbootstrap.com/docs/5.0/layout/grid/ -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <h4>A message from the connoisseur</h4>
+        <p style="text-align:left;" class="card-text"><h6>Introduction</h6><br>For our project, we wanted to play on themes of social media and cliche/overdone influencer culture. For a twist, we decided to choose an unexpected protagonist - Kovid with the K (with reference to the most popular reality TV family) and made up a plot about their struggle with adjusting on Earth. This is a comedic film, meant to condense emotions and bring entertainment, while adapting to the low-attention span internet audience.<br><br><h6>Filming & Editing</h6><br>We planned out every shot and created storyboards to make the shooting process much easier. We created the sets for some of the scenes, like making the lighting of the lounge completely red for the first scene. We shot the entire film using two iPhones (#sponsored), two tripods and a gimbal.<br>We went to different locations on campus as well as a road a few minutes off campus. We shot a majority of the film over a span of three days, while the vlogs were shot one at a time over a week.<br>The editing was done across two software platforms- Premiere Pro and Final Cut Pro. Different aspects were edited in both these softwares and were then combined to create one edit. We attempted to follow through with the influencer vibe through the use of hashtags, geo tags, and stickers. The music was also chosen carefully to go with the emotion at that point of the film. To break the monotony of following the film, we decided to add some advertisements that popped up randomly in the middle, like in instagram.<br>The “Vlogs” or short speech stories and stills were created on Instagram and then the orientation was fixed to be horizontal. For this, we looked at influencer instagram profiles to find filters and stickers that we can use to make the vlogs as believable as possible. Quite an unlikely research process, but it helped!<br><br><h6>Design Choices</h6><br> You might notice from our website that the color red is quite prominent. We used it as a signifier for everything related to our protagonist. She was wearing red, with red eyeliner in most scenes, and anyone who interacted with her in close proximity suddenly had their clothing turn red.We maintained this theme in our website as well, having an overall red theme using gradients and redesigning the Instagram logo to suit our “Kovidgram” brand.Besides the color, we also wanted to incorporate a lot of circles because covid is commonly known as a “circular” virus, which worked great with the Instagram story layout.<br><br><h6>The Website</h6><br>For the design of the website, we decided to go, first, for a login page, that then leads you to the main feed of Kovid. There, you are able to see his posts/stories. You can opt to view whichever story you want by clicking on it, and you can navigate through the stories with the “next” and “previous” buttons. You can also choose to click on just one story and let the rest play automatically. When all the stories have finished playing, the story screen/ video player will close automatically as well. You can close this screen at any time by using the (x) button on the top right, and you can also pause and play the stories by clicking on the video. A lot of hardcoding was done to get this to work, since each video has to be played and paused individually when clicking on the stories, or when clicking on the next and prev arrows. The main issue we have with the website is that some parts are not responsive. I had to use absolute positioning for some elements to get them in the exact correct spot which made it hard to make them responsive. One example of this are the tags at the end of the last story that take you to our Instagram pages. These were added to the video in the editing process, so I had to place transparent rectangles on top of them to make them clickable. Resizing the window might mess up the interactivity for this part specifically.<br><br><h6>Final Reflections</h6><br>This was a really fun project to work on for all of us! What started as a ridiculous unrealistic idea was actually turned into reality and we did not expect it to come together this well! This of course came after a lot of confusion regarding the concept and the presentation. We went from an initial idea of having a TV-style reality show to bringing this social media concept in to make it make more sense and to make the interaction more enjoyable and make more sense to the user. </p>
+      </div>
+      <div class="col-sm">
+        <img src="img/kovidprocess.png" class="img-fluid shadow p-1 mb-5 bg-body rounded" style="max-width: auto">
+        <img src="img/kovidprocess2.jpg" class="img-fluid shadow p-1 mb-5 bg-body rounded" style="max-width: auto">      
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+</body>
+</html>

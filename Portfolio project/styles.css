@@ -1,0 +1,67 @@
+.homepage{
+	padding-top: 200px;
+}
+
+p{
+  margin-top: 35px;
+  color: black;
+  text-align: left;
+}
+
+.container{
+	margin-top: 35px;
+	margin-bottom: 210px;
+}
+
+.selectionheader{
+	padding-top: 300px;
+	padding-bottom: 50px;
+}
+
+.choose{
+	padding-bottom: 305px;
+}
+
+.card{
+/*	margin-bottom: 35px;
+*/	border: none;
+}
+
+
+.card-title{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.btn{
+	background-color: #ACAD98;
+	border-color: #ACAD98;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
+.card-title-h{
+/*	padding-left: 20px;
+*/	padding-top: 20px;
+}
+
+.hortizonalbtn{
+	margin-top: 10px;
+}
+
+.card-text{
+	color: black;
+	align-self: left;
+}
+
+.card-body-k{
+	background-color: #ACAD98;
+}
+
+.list-group list-group-flush{
+	background-color: #ACAD98;
+}
+
+
+
